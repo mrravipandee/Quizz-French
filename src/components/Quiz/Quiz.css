@@ -11,6 +11,7 @@
     gap: 20px;
     border-radius: 10px;
     padding: 40px 20px;
+    overflow-x: hidden;
 }
 
 .container hr {
@@ -100,7 +101,7 @@
     .container {
         width: 80%;
         padding: 30px 15px; 
-        margin: 3rem 2rem 3rem 2rem;
+        margin: 2.5rem 2rem 3rem 2.5rem;
     }
 
     .container h2 {
@@ -122,3 +123,29 @@
     }
 }
 
+@media only screen and (max-width: 480px) {
+    .container {
+        width: 70%;
+        padding: 20px;
+        margin-top: 120px;
+        margin-bottom: 20px;
+    }
+
+    .container h2 {
+        font-size: 20px;
+    }
+
+    .container ul li {
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .container button {
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .container .index {
+        font-size: 12px;
+    }
+}
